@@ -1,0 +1,53 @@
+.messenger-wrapper {
+  width: 30vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.messenger-wrapper > div {
+  margin: 10px 0;
+}
+
+.messenger-input {
+  width: 25vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.messenger-body {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #315efb;
+  border-radius: 3px;
+  box-shadow: 0 0 3px 0 #000000;
+  height: 50vh;
+  width: 25vw;
+  overflow-y: scroll;
+}
+
+.messenger-body .recieved {
+  background: #353580;
+  align-self: flex-start;
+  box-shadow: 0 0 3px 0 #000000;
+  color: #fff;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.messenger-body .sent {
+  background: #1b8a1b;
+  align-self: flex-end;
+  box-shadow: 0 0 3px 0 #000000;
+  color: #fff;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.sent > a {
+  color: #fff;
+  text-decoration: none;
+}
